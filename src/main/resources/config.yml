@@ -1,0 +1,5 @@
+prefix: "§3§lDiscord Link §r>> "
+messages:
+  enable: "DiscordLink Plugin aktiviert!"
+  disable: "DiscordLink Plugin deaktiviert!"
+  discord: "§3Tritt unserem Discord bei: §ehttps://example.com"

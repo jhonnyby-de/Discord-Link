@@ -1,0 +1,17 @@
+name: DiscordLink
+main: org.jhonnyby.discordLink.DiscordLink
+version: 1.0
+author: Jhonnyby
+description: Ein Plugin zum Teilen deines Discord-Links
+
+commands:
+  discord:
+    description: Sendet den Discord-Link oder lädt die Konfiguration neu
+    usage: /<command> [reload]
+    aliases: [dc]
+    permission: discord.admin.reload
+    permission-message: "Du hast keine Berechtigung, diesen Befehl auszuführen!"
+permissions:
+  discord.admin.reload:
+    description: Erlaubt das Neuladen der Plugin-Konfiguration
+    default: op
