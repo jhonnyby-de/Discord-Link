@@ -6,7 +6,7 @@ Add a /discord Command
 - /discord reload
 
 # Aliases:
-- dc
+- /dc
 
 # Permissions:
 - discord.admin.reload
